@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:passing_data/punchbutton.dart';
 import 'package:passing_data/uploadImage.dart';
 import 'homescreen.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: const UploadImage(),
+      home: const PunchInOutScreen(),
     );
   }
 }
