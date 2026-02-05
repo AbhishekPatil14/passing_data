@@ -14,6 +14,7 @@ import 'package:passing_data/signin_page.dart';
 import 'package:passing_data/signup_page.dart';
 import 'package:passing_data/uploadImage.dart';
 import 'attendace_app1.dart';
+import 'demo1.dart';
 import 'homescreen.dart';
 
 void main() {
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: PunchScreen(),
+      home: Demo1(),
     );
   }
 }
